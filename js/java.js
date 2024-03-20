@@ -7,3 +7,8 @@ function nombreCompleto (nombre, apellido){
 }
 
 let composicion = nombreCompleto ('Ariel', 'Tarada')
+
+
+//funciones: reciben parametros cuandos las creamos
+//reciber argumentos cuando las creamos
+
