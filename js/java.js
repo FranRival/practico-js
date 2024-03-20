@@ -30,8 +30,13 @@ const nombreUsuario = 'LeiraMa'
 let edad
 const correoElectronico = ''
 const mayorEdad = true
-let dineroAhorrado
-let deudas 
+let dineroAhorrado = 2222
+let deudas = 11
 
 
 console.log(nombre+ ' ' +apellido)
+
+
+let dineroReal = dineroAhorrado - deudas
+
+console.log(dineroReal)
