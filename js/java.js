@@ -31,3 +31,12 @@ while (index1 >= 2) {
      console.log("EL valor de index1 es: " + index1)
      index1-- //asi evitamos el ciclo infinito.
 }
+
+console.log('------------------');
+
+
+let respuesta
+while (respuesta !=4) {
+    let pregunta = prompt('CUanto es 2 + 2?')
+    respuesta = pregunta
+} //ciclo infinto
