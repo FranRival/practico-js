@@ -1,42 +1,25 @@
-//condicionales
-//son la forma en que se ejecute un bloque de codigo. depende de una validacion.
-//la diferencia: 
+//ciclos
+//la forma de ejecutar un bloque de codigo hasta que se cumple cierta condicion 
 
-//if, else, else if, switch.
-//arrays. 
+//while, for, do while.
 
-//switch: evaluar caso. y por cases, cumpen con esa condicion. 
+//dowhile - while
+//while: hace la validacion antes de ejecutar la pimera vez el bloque de codigo.
+//dowhile: la primera vez no pregunta, ejecuta, y luego hace la ejecucion. 
+//for: automaticamente, nos obliga a definir al principio y final de cada ejecucion de codigo. 
+//obliga a ainicializar una variable, definamos algun momento donde debe terminar, y una variable que daba cambiar. 
 
-
-const tipoDeSuscripcion = "Basic";
-
-switch (tipoDeSuscripcion) {
-   case "Free":
-       console.log("Solo puedes tomar los cursos gratis");
-       break;
-   case "Basic":
-       console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
-       break;
-   case "Expert":
-       console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
-       break;
-   case "ExpertPlus":
-       console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
-       break;
+for (let index = 0; index < 5; index++) {
+    console.log("EL valor de i es: " + index)
 }
 
+//ciclo infnito - for
+//la condicion para terminar de ejecutar el ciclo, nunca se cumple. y termina danando al navegador. 
 
+console.log('------------------');
 
-if (tipoDeSuscripcion=='Free') {
-    console.log('Puedes tomar solo los cursos gratis');
-    return
-}else {
-    //esto ya no se ejecutara. 
-    //ejecutar de manera infinita, debe ser una funcion. 
+let index = 0
+while (index < 5) {
+     console.log("EL valor de i es: " + index)
+     index++ //asi evitamos el ciclo infinito.
 }
-
-
-
-//validando la misma condicion. 
-//el condicional if: permite validaciones distintas en cada validacion o condiconal.
-//switch: todos los cases se comparan con la misma variable o condicone que definimos en el switch.
