@@ -1,14 +1,5 @@
-//funciones
+//condicionales
+//son la forma en que se ejecute un bloque de codigo. depende de una validacion.
+//la diferencia: 
 
-//encapsulamos lo que es de codigo para ser reutilizables. 
-
-function nombreCompleto (nombre, apellido){
-    console.log(nombre + ' ' + apellido)
-}
-
-let composicion = nombreCompleto ('Ariel', 'Tarada')
-
-
-//funciones: reciben parametros cuandos las creamos
-//reciber argumentos cuando las creamos
-
+//if, else, else if, switch.
