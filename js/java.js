@@ -23,3 +23,11 @@ while (index < 5) {
      console.log("EL valor de i es: " + index)
      index++ //asi evitamos el ciclo infinito.
 }
+
+console.log('------------------');
+
+let index1 = 10
+while (index1 >= 2) {
+     console.log("EL valor de index1 es: " + index1)
+     index1-- //asi evitamos el ciclo infinito.
+}
