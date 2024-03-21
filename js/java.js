@@ -25,6 +25,18 @@ switch (tipoDeSuscripcion) {
        break;
 }
 
+
+
+if (tipoDeSuscripcion=='Free') {
+    console.log('Puedes tomar solo los cursos gratis');
+    return
+}else {
+    //esto ya no se ejecutara. 
+    //ejecutar de manera infinita, debe ser una funcion. 
+}
+
+
+
 //validando la misma condicion. 
 //el condicional if: permite validaciones distintas en cada validacion o condiconal.
 //switch: todos los cases se comparan con la misma variable o condicone que definimos en el switch.
