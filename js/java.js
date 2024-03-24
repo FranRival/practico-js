@@ -21,11 +21,16 @@ function imprimirPrimerElementoArray (arr){
 
 imprimirPrimerElementoArray(['Ana', 'Celaya']) 
 
-function imprimierElementoPorElemento (arr){
+function imprimierElementoPorElemento (obj){
+    const arr = Object.values(obj)
     for (let index = 0; index < arr.length; index++) {
         console.log(arr[index])
-    }
+    }//magia negra. 
 }
 
 console.log('-----------------');
 imprimierElementoPorElemento(['Ana', 'Celaya'])
+
+
+const array1 = Object.values(obj)
+console.log(array1)
