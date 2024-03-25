@@ -23,9 +23,12 @@ tiposDeSuscripciones [ejemploSuscripcion]
 
 function conseguirTipoSuscripcion (suscripcion){
     if (tiposDeSuscripciones[suscripcion]) {
+        console.log(tiposDeSuscripciones[suscripcion])
+        return
+    }
+    console.warn('Eso no existe');
+}
 
 
-}
-}
-conseguirTipoSuscripcion('jj')
+conseguirTipoSuscripcion('expert')
 
