@@ -1,36 +1,24 @@
-//arrays y objetos. 
+//arrays y objetos. 2
 
 
-//estructura de datos con javasscript.
-//arrays: lista de elementos.
-//lista: conjunto de elementos.
 
-const arrays = []
-
-const obj = {//el obejto ahora es una lista de elementos con nombre clave.
-    nombre: '',
-    edad: 3,
+function conseguirTipoSuscripcion (suscripcion){
+    if (suscripcion=='Free') {
+        console.log('Tomaras los cursos gratis.');
+        return
+    }if (suscripcion=='Basic') {
+        console.log('Basic');
+        return
+    }if (suscripcion=='Expert') {
+        console.log('Expert')
+        return
+    }if (suscripcion == 'Expert plus') {
+        console.log('Expert plus');
+        return
+    }else {
+        console.warn('Not exist that bitch');
+    }
 }
 
-//arrays: elementos lo mismo que en todos los demas.
-//objeto: cuando los nombres de cada elemento son importantes para el algoritmo.
+conseguirTipoSuscripcion('jj')
 
-function imprimirPrimerElementoArray (arr){
-    console.log(arr[0])
-}
-
-imprimirPrimerElementoArray(['Ana', 'Celaya']) 
-
-function imprimierElementoPorElemento (obj){
-    const arr = Object.values(obj)
-    for (let index = 0; index < arr.length; index++) {
-        console.log(arr[index])
-    }//magia negra. 
-}
-
-console.log('-----------------');
-imprimierElementoPorElemento(['Ana', 'Celaya'])
-
-
-const array1 = Object.values(obj)
-console.log(array1)
