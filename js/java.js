@@ -17,3 +17,12 @@ console.log({
     p,
     input 
 });
+
+
+h1.innerHTML= 'PRACTICO JS HTML'
+
+
+console.log(h1.getAttribute('Pantalla'))
+console.log('-----');
+
+
