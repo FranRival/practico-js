@@ -30,3 +30,16 @@ const h2 = document.querySelector('h2')
 h2.setAttribute("class","dorado")
 
 
+h2.classList.add('Fiuzha')//agregamos una nueva clase. 
+h2.classList.remove('dorado')//quitar clase
+
+input.value = 657
+
+//crear desde 0
+
+
+const imagen = document.createElement('img')
+imagen.setAttribute('src', 'https://www.findelahistoria.com/web/wp-content/uploads/2018/02/garfield.jpg')
+console.log(imagen);
+img.innerHTML = '' //AQUI, ELIMINAMOS EL :aqui va una imagen.
+img.append(imagen)//Aqui colocamos la imagen 
