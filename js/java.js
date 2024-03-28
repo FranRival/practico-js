@@ -25,6 +25,8 @@ h1.innerHTML= 'PRACTICO JS HTML'
 console.log(h1.getAttribute('Pantalla'))
 console.log('-----');
 
+
+const h2 = document.querySelector('h2')
 h2.setAttribute("class","dorado")
 
 
