@@ -9,3 +9,8 @@ const btn = document.querySelector('btncalcular')
 
 
 //escuchar elementos desde html a js: onclick - onchance
+
+
+function btnOnClick (){
+    console.log('Escuchando el evento de click');
+}
