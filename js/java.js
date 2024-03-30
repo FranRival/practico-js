@@ -1,4 +1,4 @@
-//interaccion con el usuario.
+//adeventlistener
 
 
 
@@ -9,7 +9,8 @@ const btn = document.querySelector('btncalcular')
 const resultado = document.querySelector('#resultado')
 
 
-//escuchar elementos desde html a js: onclick - onchance
+
+btn.addEventListener('click', btnOnClick) //sin parentesis. 
 
 
 function btnOnClick (){
