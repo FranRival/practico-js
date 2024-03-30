@@ -5,7 +5,7 @@
 const h1 = document.querySelector('h1')
 const input1 = document.querySelector('#calculo')
 const input2 = document.querySelector('#calculo1')
-const btn = document.querySelector('btncalcular')
+const btn = document.querySelector('#btncalcular')
 const resultado = document.querySelector('#resultado')
 
 
