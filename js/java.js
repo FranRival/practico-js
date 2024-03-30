@@ -1,5 +1,5 @@
 //adeventlistener
-
+//manipulacion del dom basica
 
 
 const h1 = document.querySelector('h1')
@@ -19,13 +19,10 @@ function sumarInputValues (event){
     event.preventDefault()//ya no se recargo la pagina.
     //defaultPrevent: que no ejecute lo que ejecutaria por defecto.
 
-
-
-    console.log(input1.value + input2.value);//concatenacion. no suma. 
-    console.log(Number(input1.value) + parseInt(input2.value))//suma
+    console.log(input1.value + input2.value);
+    console.log(Number(input1.value) + parseInt(input2.value))
 
     const result = input1.value + input2.value
     resultado.innerHTML = 'Resultado: ' + result
 }
 
-//trabajr con formularios no es escuchar eventos con el addeventlistener. 
