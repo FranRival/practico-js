@@ -25,4 +25,3 @@ function sumarInputValues (event){
     const result = input1.value + input2.value
     resultado.innerHTML = 'Resultado: ' + result
 }
-
